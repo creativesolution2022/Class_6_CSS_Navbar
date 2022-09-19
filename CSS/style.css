@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar 1 Starts */
+nav{
+    background-color: #002147;
+    margin-bottom: 400px;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+    border-right: 1px solid #2F72A8;
+}
+nav ul li a{
+    display: inline-block;
+    color: white;
+    /* background-color: #002147; */
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 15px;
+    margin: 0;
+    transition: .6s;
+    width: 200px;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: #2F72A8;
+}
+nav ul li ul{
+    position: absolute;
+    top: 120%;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .6s;
+}
+nav ul li:hover ul{
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+nav ul li ul li{
+    display: block;
+    color: white;
+    width: 200px;
+}
+nav ul li ul li a{
+    background-color: white;
+    color: #2F72A8;
+    border-bottom: 1px solid #B1CCCC;
+}
+nav ul li ul li a:hover{
+    color: white
+}
+/* Navbar 1 Ends */
+
+/* Navbar 2 Starts */
+.nav{
+    background-color: #23085A;
+    margin-bottom: 300px;
+}
+.nav ul li{
+    display: inline-block;
+    position: relative;
+}
+.nav ul li a{
+    display: inline-block;
+    color: #23085A;
+    background-color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 15px;
+    margin: 0;
+    transition: .6s;
+    width: 200px;
+    text-align: center;
+}
+.nav ul li a:hover{
+    background-color: #0df8ec;
+}
+.nav ul li ul{
+    position: absolute;
+    top: 120%;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .6s;
+}
+.nav ul li:hover ul{
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+.nav ul li ul li{
+    display: block;
+    color: white;
+    width: 200px;
+}
+.nav ul li ul li a{
+    background-color: #d5f4e6;
+    color: #2F72A8;
+    width: 400px;
+    text-align: left;
+    border-bottom: 1px solid #B1CCCC;
+}
+.nav ul li ul li a:hover{
+    color: #23085A
+}
+/* Navbar 2 Ends */
+
+/* Navbar 3 Starts */
+.nav_1 {
+    background-color: gray;
+    margin-bottom: 300px;
+}
+.nav_1 ul li{
+    display: inline-block;
+    position: relative;
+}
+.nav_1 ul li a{
+    display: inline-block;
+    color: #23085A;
+    background-color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 15px;
+    margin: 0;
+    transition: .6s;
+    width: 144px;
+    text-align: center;
+}
+.nav_1 ul li a:hover{
+    background-color: #637070;
+    color: red;
+}
+.nav_1 ul li ul{
+    position: absolute;
+    top: 120%;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .6s;
+}
+.nav_1 ul li:hover ul{
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+.nav_1 ul li ul li{
+    display: block;
+    color: white;
+    width: 200px;
+}
+.nav_1 ul li ul li a{
+    background-color: white;
+    color: #2F72A8;
+    width: 250px;
+    text-align: left;
+    border-bottom: 1px solid #B1CCCC;
+}
+.nav_1 ul li ul li a:hover{
+    color: red;
+}
+/* Navbar 3 Ends */
